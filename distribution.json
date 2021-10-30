@@ -8,32 +8,32 @@
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
+    "rss": "https://soulofwarcraft.ft/feed.rss",
     "servers": [
         {
             "id": "sow",
             "name": "Soul of Warcraft",
             "description": "Le serveur",
             "icon": "https://soulofwarcraft.fr/storage/img/logo.jpg",
-            "version": "3.9.4",
-            "address": "mc.westeroscraft.com",
-            "minecraftVersion": "1.11.2",
+            "version": "1.0.0",
+            "address": "",
+            "minecraftVersion": "1.7.10",
             "discord": {
-                "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
+                "shortId": "SOW",
+                "largeImageText": "Soul Of Warcraft",
                 "largeImageKey": "server-prod"
             },
             "mainServer": true,
-            "autoconnect": true,
+            "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "id": "net.minecraftforge:forge:1.7.10-10.12.2.1149",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
                         "size": 4450992,
                         "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.7.10.1149/forge-1.7.10-10.12.2.1149-universal.jar"
                     },
                     "subModules": [
                         {
